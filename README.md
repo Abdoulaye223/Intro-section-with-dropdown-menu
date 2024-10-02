@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Abdoulaye223/Intro-section-with-dropdown-menu.git]
+- Live Site URL: [https://abdoulaye223.github.io/Intro-section-with-dropdown-menu/]
 
 ## My process
 
