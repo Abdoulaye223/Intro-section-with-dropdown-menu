@@ -1,0 +1,143 @@
+:root {
+--Almost-White: hsl(0, 0%, 98%);
+--Medium-Gray: hsl(0, 0%, 41%);
+--Almost-Black: hsl(0, 0%, 8%);
+--font-size: 18px;
+--font-weight: 500, 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-2 {
+    border-radius: 12px;
+}
+
+.dropdown-menu {
+    border-color: transparent;
+    box-shadow: 10px 10px 30px -10px rgba(43,41,43,0.56);
+}
+
+.dropdown-menu li > a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media screen and  (max-width:768px) {
+    .btn-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dropdown-menu {
+        border-color: white;
+        box-shadow: none;
+    }
+
+    .btn-light {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+
+    .hero-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        padding-left: 50px;
+        font-size: 18px;
+    }
+
+    .hero-text p {
+        padding-left: 50px;
+    }
+  
+    .hero-text .btn {
+       
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+    .mobile-only {
+        margin-top: 20px;
+    }
+
+    .hero-text .btn {
+        margin-bottom: -100px;
+    }
+
+    .links-img {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 150px;
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .hero-text .btn {
+        margin-bottom: 200px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+    .mobile-only {
+        display:none !important;
+    }
+} 
+@media only screen and (max-width: 768px) {
+    .desktop-only {
+        display:none !important;
+    }
+} 
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.hero-text p {
+    padding-bottom: 30px;
+}
+
+
+.hero-img {
+    width: 450px;
+    padding-top: 50px;
+    margin-left: 180px;
+}
+
+.links-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+}
